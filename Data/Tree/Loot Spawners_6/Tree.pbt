@@ -1,7 +1,7 @@
-﻿Name: "Loot Spawners_7"
-RootId: 7687604625956787724
+﻿Name: "Loot Spawners_6"
+RootId: 5993616392341703054
 Objects {
-  Id: 12318944710626200184
+  Id: 1909342877703897129
   Name: "Loot Spawner"
   Transform {
     Location {
@@ -16,9 +16,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7687604625956787724
-  ChildIds: 4062149624059916541
-  ChildIds: 10922637084045139853
+  ParentId: 5993616392341703054
+  ChildIds: 1324963565741801702
+  ChildIds: 4890586648423931053
   UnregisteredParameters {
     Overrides {
       Name: "cs:LootTable"
@@ -75,7 +75,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10922637084045139853
+  Id: 4890586648423931053
   Name: "Geo"
   Transform {
     Location {
@@ -88,8 +88,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12318944710626200184
-  ChildIds: 10998456707369858279
+  ParentId: 1909342877703897129
+  ChildIds: 16310489071142878844
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -109,12 +109,10 @@ Objects {
   }
 }
 Objects {
-  Id: 10998456707369858279
+  Id: 16310489071142878844
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 488.393463
-      Y: 845.917847
       Z: -1
     }
     Rotation {
@@ -125,7 +123,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 10922637084045139853
+  ParentId: 4890586648423931053
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -164,7 +162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4062149624059916541
+  Id: 1324963565741801702
   Name: "LootSpawnerServer"
   Transform {
     Location {
@@ -177,7 +175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12318944710626200184
+  ParentId: 1909342877703897129
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -188,7 +186,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 12318944710626200184
+        SelfId: 1909342877703897129
       }
     }
   }
@@ -211,7 +209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12665865073867421481
+  Id: 257378653587965431
   Name: "Loot Spawner"
   Transform {
     Location {
@@ -225,9 +223,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7687604625956787724
-  ChildIds: 5266996482150868008
-  ChildIds: 4709555681688925024
+  ParentId: 5993616392341703054
+  ChildIds: 16255676787156179173
+  ChildIds: 9361156741449794671
   UnregisteredParameters {
     Overrides {
       Name: "cs:LootTable"
@@ -284,7 +282,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4709555681688925024
+  Id: 9361156741449794671
   Name: "Geo"
   Transform {
     Location {
@@ -297,8 +295,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12665865073867421481
-  ChildIds: 13841420610443617785
+  ParentId: 257378653587965431
+  ChildIds: 16548763815650661139
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -318,12 +316,10 @@ Objects {
   }
 }
 Objects {
-  Id: 13841420610443617785
+  Id: 16548763815650661139
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 537.78418
-      Y: -1248.10889
       Z: -1
     }
     Rotation {
@@ -334,7 +330,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 4709555681688925024
+  ParentId: 9361156741449794671
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -373,7 +369,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5266996482150868008
+  Id: 16255676787156179173
   Name: "LootSpawnerServer"
   Transform {
     Location {
@@ -386,7 +382,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12665865073867421481
+  ParentId: 257378653587965431
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -397,7 +393,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 12665865073867421481
+        SelfId: 257378653587965431
       }
     }
   }
@@ -420,7 +416,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5750559084788158544
+  Id: 1962187940757449230
   Name: "Loot Spawner"
   Transform {
     Location {
@@ -435,9 +431,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7687604625956787724
-  ChildIds: 15065230074387112568
-  ChildIds: 16729845101598348505
+  ParentId: 5993616392341703054
+  ChildIds: 12044484471409901633
+  ChildIds: 3733199899678022454
   UnregisteredParameters {
     Overrides {
       Name: "cs:LootTable"
@@ -494,7 +490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16729845101598348505
+  Id: 3733199899678022454
   Name: "Geo"
   Transform {
     Location {
@@ -507,8 +503,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5750559084788158544
-  ChildIds: 18167910872125400114
+  ParentId: 1962187940757449230
+  ChildIds: 3048650858624606187
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -528,12 +524,10 @@ Objects {
   }
 }
 Objects {
-  Id: 18167910872125400114
+  Id: 3048650858624606187
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 2211.61353
-      Y: -1276.88367
       Z: -1
     }
     Rotation {
@@ -544,7 +538,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 16729845101598348505
+  ParentId: 3733199899678022454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -583,7 +577,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15065230074387112568
+  Id: 12044484471409901633
   Name: "LootSpawnerServer"
   Transform {
     Location {
@@ -596,7 +590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5750559084788158544
+  ParentId: 1962187940757449230
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -607,7 +601,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 5750559084788158544
+        SelfId: 1962187940757449230
       }
     }
   }

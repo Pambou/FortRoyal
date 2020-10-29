@@ -17,10 +17,27 @@ Objects {
   ChildIds: 4855480006497290740
   ChildIds: 15544222329710426362
   ChildIds: 1832166441183768636
-  ChildIds: 6200312661195697081
+  ChildIds: 13846234756246914217
   ChildIds: 3350236815956899417
   ChildIds: 9696204471719708407
-  ChildIds: 12842913878296552768
+  ChildIds: 1763943436102384400
+  ChildIds: 8300723203876225527
+  ChildIds: 4862813571152260417
+  ChildIds: 3452583742461843730
+  ChildIds: 5127426713644299026
+  ChildIds: 5189815507160157339
+  ChildIds: 12649225026170122592
+  ChildIds: 12878827299940008760
+  ChildIds: 528611656807096224
+  ChildIds: 4138769714231939324
+  ChildIds: 16751830116211549732
+  ChildIds: 13502119326768467465
+  ChildIds: 17401574162520381585
+  ChildIds: 16223270471966687101
+  ChildIds: 10613476268318960235
+  ChildIds: 5006211251733683593
+  ChildIds: 16851361900266078189
+  ChildIds: 10873974348100143407
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,8 +50,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12842913878296552768
-  Name: "Loot Chest - Tier 01"
+  Id: 10873974348100143407
+  Name: "Loot Spawner"
   Transform {
     Scale {
       X: 1
@@ -45,25 +62,702 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5022259455529652117
+      key: 2812260354695882760
       value {
         Overrides {
           Name: "Name"
-          String: "Loot Chest - Tier 01"
+          String: "Loot Spawner"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -2035
-            Y: 9390
-            Z: 5
+            X: -2055
+            Y: 11125
           }
         }
       }
     }
     TemplateAsset {
-      Id: 17166335338953073827
+      Id: 115817811310367991
     }
+  }
+}
+Objects {
+  Id: 16851361900266078189
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2835
+      Y: 8100
+      Z: 15
+    }
+    Rotation {
+      Yaw: -65.000061
+      Roll: 54.9999733
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5006211251733683593
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2805
+      Y: 8065
+      Z: 15
+    }
+    Rotation {
+      Yaw: -65.000061
+      Roll: 54.9999733
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10613476268318960235
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2850
+      Y: 8070
+      Z: 50.0000305
+    }
+    Rotation {
+      Yaw: -65.0000916
+      Roll: 54.9999657
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16223270471966687101
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2825
+      Y: 8020
+      Z: 50.0000229
+    }
+    Rotation {
+      Yaw: -65.000061
+      Roll: 54.9999733
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17401574162520381585
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2825
+      Y: 8060
+      Z: 15
+    }
+    Rotation {
+      Yaw: -65.0000305
+      Roll: 54.9999809
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13502119326768467465
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2855
+      Y: 8010
+      Z: 50
+    }
+    Rotation {
+      Yaw: -65.0000305
+      Roll: 54.9999809
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16751830116211549732
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2855
+      Y: 8085
+      Z: 15
+    }
+    Rotation {
+      Yaw: -65
+      Roll: 54.9999886
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4138769714231939324
+  Name: "Wooden Barrel"
+  Transform {
+    Location {
+      X: -2760
+      Y: 8035
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6604457006633131057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 528611656807096224
+  Name: "Fantasy Chest Treasure Pile 01"
+  Transform {
+    Location {
+      X: -2840
+      Y: 8035
+      Z: 15
+    }
+    Rotation {
+      Yaw: -65
+      Roll: 55
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12878827299940008760
+  Name: "Floor Candle Holder 03"
+  Transform {
+    Location {
+      X: -3010
+      Y: 8280
+      Z: 125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12570018260124267559
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12649225026170122592
+  Name: "Modern Weapon - Auto Rifle 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12573291945604922738
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Modern Weapon - Auto Rifle 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3085
+            Y: 8355
+            Z: 131
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13094010949560250120
+    }
+  }
+}
+Objects {
+  Id: 5189815507160157339
+  Name: "Craftsman Dining Chair"
+  Transform {
+    Location {
+      X: -3195
+      Y: 8310
+      Z: 5
+    }
+    Rotation {
+      Yaw: -85
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16029854730071308673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5127426713644299026
+  Name: "Craftsman Dining Chair"
+  Transform {
+    Location {
+      X: -2875
+      Y: 8355
+      Z: 5
+    }
+    Rotation {
+      Yaw: 105
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16029854730071308673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3452583742461843730
+  Name: "Craftsman Dining Chair"
+  Transform {
+    Location {
+      X: -3025
+      Y: 8480
+      Z: 5
+    }
+    Rotation {
+      Yaw: 175
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16029854730071308673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4862813571152260417
+  Name: "Craftsman Dining Table"
+  Transform {
+    Location {
+      X: -3035
+      Y: 8325
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17248609137611545127
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8300723203876225527
+  Name: "Craftsman Couch"
+  Transform {
+    Location {
+      X: -3020
+      Y: 8090
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3844479793680088164
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1763943436102384400
+  Name: "CastleHalls"
+  Transform {
+    Location {
+      X: -2695
+      Y: -430
+      Z: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "CastleHalls"
+  }
+  InstanceHistory {
+    SelfId: 1763943436102384400
+    SubobjectId: 407707659898601163
+    InstanceId: 8698005431480663745
+    TemplateId: 8319496616205024792
+    WasRoot: true
   }
 }
 Objects {
@@ -697,9 +1391,17 @@ Objects {
   }
 }
 Objects {
-  Id: 6200312661195697081
-  Name: "Suburbs01"
+  Id: 13846234756246914217
+  Name: "Maison1"
   Transform {
+    Location {
+      X: -14150
+      Y: 10365
+      Z: -20
+    }
+    Rotation {
+      Yaw: -90
+    }
     Scale {
       X: 1
       Y: 1
@@ -707,45 +1409,22 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 201147539859712810
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Maison1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -14150
-            Y: 10365
-            Z: -20
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5811097752772893753
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 10
-            Z: -260
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15457077578268006785
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Maison1"
+  }
+  InstanceHistory {
+    SelfId: 13846234756246914217
+    SubobjectId: 201147539859712810
+    InstanceId: 6200312661195697081
+    TemplateId: 15457077578268006785
+    WasRoot: true
   }
 }
 Objects {

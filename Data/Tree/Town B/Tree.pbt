@@ -5255,7 +5255,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Loot Spawners_7"
+    FilePartitionName: "Loot Spawners_6"
   }
 }
 Objects {
