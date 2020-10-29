@@ -1,3 +1,0 @@
-# FortRoyal
-
-Bientôt: sortie du jeu...
