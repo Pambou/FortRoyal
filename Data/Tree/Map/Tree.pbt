@@ -29,34 +29,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12325050865167333281
-  Name: "Spawn Points"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1832166441183768636
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Spawn Points"
-  }
-}
-Objects {
   Id: 16880767151892086361
   Name: "Kill Zone"
   Transform {

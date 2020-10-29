@@ -38,6 +38,10 @@ Objects {
   ChildIds: 5006211251733683593
   ChildIds: 16851361900266078189
   ChildIds: 10873974348100143407
+  ChildIds: 17556869485680198604
+  ChildIds: 11464257342931215560
+  ChildIds: 8674917532849070320
+  ChildIds: 13010253852997483579
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -47,6 +51,728 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13010253852997483579
+  Name: "Basic Chest"
+  Transform {
+    Location {
+      X: -3875
+      Y: 9050
+      Z: 5
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 3989919415455234759
+  ChildIds: 7184766678254194080
+  ChildIds: 13385320854364342780
+  ChildIds: 6507500486560843900
+  ChildIds: 6128171024317215310
+  ChildIds: 17990170363953390562
+  ChildIds: 1815958038884643879
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenOnce"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 600
+    }
+    Overrides {
+      Name: "cs:OpenLabel"
+      String: "Open Chest"
+    }
+    Overrides {
+      Name: "cs:LootItem"
+      AssetReference {
+        Id: 17469182100928658190
+      }
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Will reset (to be closed) at the start of a round"
+    }
+    Overrides {
+      Name: "cs:Speed:tooltip"
+      String: "How fast the chest lid opens or closes, in degrees / second"
+    }
+    Overrides {
+      Name: "cs:OpenOnce:tooltip"
+      String: "Chest can only be opened once per round."
+    }
+    Overrides {
+      Name: "cs:OpenLabel:tooltip"
+      String: "Use label to open the chest"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13010253852997483579
+    SubobjectId: 9905448963363882734
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1815958038884643879
+  Name: "LootSpawnerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17469182100928658190
+    }
+  }
+}
+Objects {
+  Id: 17990170363953390562
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  ChildIds: 179437701476122653
+  ChildIds: 932222499837564956
+  ChildIds: 15801360294937089210
+  ChildIds: 15165917835906472114
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 17990170363953390562
+    SubobjectId: 14146757550811453751
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 15165917835906472114
+  Name: "Chest Treasure Pile"
+  Transform {
+    Location {
+      Z: 40
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17990170363953390562
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3533190463953898497
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15165917835906472114
+    SubobjectId: 17258537317735719527
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 15801360294937089210
+  Name: "Heper_ChestCloseSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17990170363953390562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 4315540626537441108
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 15801360294937089210
+    SubobjectId: 16623693130325913199
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 932222499837564956
+  Name: "Heper_ChestOpenSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17990170363953390562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 3929808165339934488
+    }
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 932222499837564956
+    SubobjectId: 3536846090642088649
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 179437701476122653
+  Name: "BasicChestControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17990170363953390562
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RotationRoot"
+      ObjectReference {
+        SelfId: 6128171024317215310
+      }
+    }
+    Overrides {
+      Name: "cs:OpenSound"
+      ObjectReference {
+        SelfId: 932222499837564956
+      }
+    }
+    Overrides {
+      Name: "cs:CloseSound"
+      ObjectReference {
+        SelfId: 15801360294937089210
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12468155253248836719
+    }
+  }
+  InstanceHistory {
+    SelfId: 179437701476122653
+    SubobjectId: 4577891467226168008
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 6128171024317215310
+  Name: "RotationRoot"
+  Transform {
+    Location {
+      Y: 36.5996704
+      Z: 45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  ChildIds: 5281759802758936058
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6128171024317215310
+    SubobjectId: 7561876648829012123
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 5281759802758936058
+  Name: "Lid Rotation Static Context"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 2.73207552e-05
+      Yaw: -179.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6128171024317215310
+  ChildIds: 8479426761688220278
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 5281759802758936058
+    SubobjectId: 8409937004688609071
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 8479426761688220278
+  Name: "Chest Lid"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5281759802758936058
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9188351867310556903
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8479426761688220278
+    SubobjectId: 5212481290369808547
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 6507500486560843900
+  Name: "Fantasy Chest Base Collision"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3753434009625901326
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6507500486560843900
+    SubobjectId: 7473095338478711465
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 13385320854364342780
+  Name: "LootItemSpawnPoint"
+  Transform {
+    Location {
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13385320854364342780
+    SubobjectId: 9527571502631842601
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 7184766678254194080
+  Name: "BasicChestControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 13010253852997483579
+      }
+    }
+    Overrides {
+      Name: "cs:RotationRoot"
+      ObjectReference {
+        SelfId: 6128171024317215310
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 3989919415455234759
+      }
+    }
+    Overrides {
+      Name: "cs:LootItemSpawnPoint"
+      ObjectReference {
+        SelfId: 13385320854364342780
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9518401124149118991
+    }
+  }
+  InstanceHistory {
+    SelfId: 7184766678254194080
+    SubobjectId: 6795903874527213429
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 3989919415455234759
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13010253852997483579
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Open Chest"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3989919415455234759
+    SubobjectId: 767167997988438034
+    InstanceId: 7170498981757881771
+    TemplateId: 2072444023343493054
+  }
+}
+Objects {
+  Id: 8674917532849070320
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11464257342931215560
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17556869485680198604
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -3140
+      Y: 9395
+      Z: 104.356995
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
   }
 }
 Objects {
